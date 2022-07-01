@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid d-flex p-0 bx-10vh">
+      <!-- sidebar column with fixed position  -->
+      <div
+        class="position-fixed col-lg-3 d-flex flex-column align-items-start sidebar"
+      >
+        <i class="fab fa-twitter fs-1 mb-3 mt-2"></i>
+        <a class="sidebar-link p-2 fs-5 text-black rounded-pill" href="#">
+          <i class="fas fa-home"></i> <span class="ps-3 link-name">Home</span>
+        </a>
+        <a class="sidebar-link p-2 text-black fs-5 rounded-pill" href="#">
+          <i class="far fa-hashtag"></i>
+          <span class="ps-3 link-name">Explore</span>
+        </a>
+        <a class="sidebar-link p-2 fs-5 text-black rounded-pill" href="#">
+          <i class="fal fa-bell"></i>
+          <span class="ps-3 link-name">Notification</span></a
+        >
+        <a class="sidebar-link p-2 text-black fs-5 rounded-pill" href="#">
+          <i class="fal fa-envelope"></i>
+          <span class="ps-3 link-name">Messages</span>
+        </a>
+        <a class="sidebar-link p-2 text-black fs-5 rounded-pill" href="#">
+          <i class="fal fa-bookmark"></i>
+          <span class="ps-3 link-name">Bookmarks</span>
+        </a>
+        <a class="sidebar-link p-2 text-black fs-5 rounded-pill" href="#">
+          <i class="fal fa-ballot"></i>
+          <span class="ps-3 link-name">Lists</span>
+        </a>
+        <a class="sidebar-link p-2 text-black fs-5 rounded-pill" href="#">
+          <i class="fal fa-user"></i>
+          <span class="ps-3 link-name">Profile</span>
+        </a>
+        <a class="sidebar-link p-2 text-black fs-5 rounded-pill" href="#">
+          <i class="fal fa-ellipsis-h-alt"></i>
+          <span class="ps-3 link-name">More</span>
+        </a>
+        <p class="mt-2" style="width: 100%">
+          <button
+            style="width: 80%"
+            class="tweet-btn btn btn-primary pt-3 pb-3 rounded-pill fw-semibold fs-5 text-white"
+          >
+            Tweet
+          </button>
+        </p>
+        <div
+          class="pt-3 pb-3 mt-2 mb-0 d-flex align-items-center"
+          style="width: 100%"
+        >
+          <span class="ms-1 me-2">
+            <i class="fas fa-user fs-2"></i>
+          </span>
+
+          <div class="d-flex flex-column me-5" style="width: 50%">
+            <span class="fw-semibold">Your Name</span>
+            <span class="fst-italic fw-light">@yourHandle</span>
+          </div>
+
+          <span>
+            <i class="fal fa-ellipsis-h-alt"></i>
+          </span>
+        </div>
+      </div>
+      <!-- end of sidebar section -->
+      <div class="col-lg-3"></div>
+      <div class="col-lg-9 p-1 d-flex align-items-center ps-1">Right</div>
+    </div>
+
+    <button class="btn btn-primary tweet-btn-2 rounded-pill">
+      <i class="fas fa-star"></i> <span class="hidden">Tweet</span>
+    </button>
+
+    <div
+      class="col-sm-12 d-flex justify-content-evenly position-fixed hidden-nav"
+    >
+      <a class="sidebar-link p-2 fs-5 text-black rounded-pill" href="#">
+        <i class="fas fa-home"></i>
+      </a>
+      <a class="sidebar-link p-2 text-black fs-5 rounded-pill" href="#">
+        <i class="far fa-hashtag"></i>
+      </a>
+      <a class="sidebar-link p-2 fs-5 text-black rounded-pill" href="#">
+        <i class="fal fa-bell"></i>
+      </a>
+      <a class="sidebar-link p-2 text-black fs-5 rounded-pill" href="#">
+        <i class="fal fa-envelope"></i>
+      </a>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
