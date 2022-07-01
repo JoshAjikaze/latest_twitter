@@ -42,8 +42,10 @@ a {
   .tweet-btn-2 {
     display: block !important;
     position: absolute;
-    margin-top: 60vh;
-    margin-left: 70vw;
+    margin-top: 55vh;
+    margin-left: 75vw;
+    padding: 1.2rem !important;
+    border-radius: 50% !important;
   }
 
   .sidebar-link .link-name {
