@@ -24,8 +24,10 @@ a {
 
 .tweet-btn-2 {
   position: absolute;
-  margin-top: 70vh;
+  margin-top: 55vh;
   margin-left: 75vw;
+  /* border-radius: 30px !important;
+  padding: 1rem !important; */
 }
 
 @media (max-width: 900px) {
@@ -40,12 +42,9 @@ a {
   }
 
   .tweet-btn-2 {
+    padding: 5px 15px !important;
     display: block !important;
-    position: absolute;
-    margin-top: 55vh;
-    margin-left: 75vw;
-    padding: 1.2rem !important;
-    border-radius: 50% !important;
+    border-radius: 30px !important;
   }
 
   .sidebar-link .link-name {
@@ -56,6 +55,11 @@ a {
 @media (max-width: 500px) {
   .sidebar {
     display: none !important;
+  }
+
+  .tweet-btn-2 {
+    padding: 5px 10px !important;
+    border-radius: 50% !important;
   }
 
   .hidden {
